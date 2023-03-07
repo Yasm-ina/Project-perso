@@ -1,0 +1,22 @@
+body{
+    font-family: 'Montserrat', sans-serif;      
+} 
+
+.card.width {
+    position: relative;
+    animation-name: right-left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes right-left {
+    0%   { left:0px; top:0px;}
+    25%  { left:900px;}
+    50%  { left:600px;}
+    75%  { left:400px;}
+    100% { left:200px;}
+  }
+
+
+
+
